@@ -1,7 +1,6 @@
 # intern_survivor_kit
 # This is a guide for intern dummies to deal with Robotics & IoT
 
-=================================================
 Open Source Operating System: Linux Ubuntu basics
 =================================================
 
@@ -31,7 +30,6 @@ https://help.ubuntu.com/community/UsingTheTerminal
 -------------------------------------------------------------------
 
 
-====================================
 Robotic Operating System: ROS basics
 ====================================
 
@@ -64,11 +62,21 @@ teleop_twist_keyboard - enable remote control robot with keyboard
 tf - let user track multiple coordinate frames of robot
 rviz - 3D visualization tools, good for AGV's map visualization
 robot_localization - Localizing robot by estimating the sensors data
+---------------------------------------------------------------------
 
-
-===========
 Useful Tips
 ===========
 
-i.
-ii. Accessing file directory of micro-computer such as Raspberry Pi:
+i.  Always backup your work into github in case your workstation down.
+
+The following command lines can check the history and update the repository:
+git status
+git add -A
+git commit -m "filename"
+git log
+git push
+
+ii. Accessing file directory of micro-computer such as Raspberry Pi.
+
+First step you need to connect to the micro-computer with Ethernet or Wifi and get the IP address of it.
+Next, open Linux file directory and select connect to server
