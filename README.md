@@ -62,6 +62,7 @@ teleop_twist_keyboard - enable remote control robot with keyboard
 tf - let user track multiple coordinate frames of robot
 rviz - 3D visualization tools, good for AGV's map visualization
 robot_localization - Localizing robot by estimating the sensors data
+
 ---------------------------------------------------------------------
 
 Useful Tips
@@ -70,6 +71,7 @@ Useful Tips
 i.  Always backup your work into github in case your workstation down.
 
 The following command lines can check the history and update the repository:
+
 git status
 git add -A
 git commit -m "filename"
