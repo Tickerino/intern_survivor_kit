@@ -6,19 +6,15 @@ Open Source Operating System: Linux Ubuntu basics
 
 FIRST IMPORTANT NOTE!!! INSTALL UBUNTU!!!
 
-Ingredient:
-    i.  A workstation, either desktop or laptop
-    ii. An empty USB drive
+Ingredient:   
+    i.  A workstation, either desktop or laptop  
+    ii. An empty USB drive  
 
-How:
-    i.   Ask your supervisor which version of Ubuntu will be used over the
-         period and download it from Ubuntu site.
-    ii.  Burn the image file downloaded from the website to the USB drive,
-         recommended application: Etcher.io
-    iii. Reboot your workstation with the USB drive plugged in, then go to BIOS
-         and boot from the USB
-    iv.  Decide whether dual boot your workstation, if not, the pre-installed
-         OS will be wiped off from your workstation.
+How:   
+    i.   Ask your supervisor which version of Ubuntu will be used    over the period and download it from Ubuntu site.  
+    ii.  Burn the image file downloaded from the website to the USB drive,recommended application: Etcher.io  
+    iii. Reboot your workstation with the USB drive plugged in, then go to BIOS and boot from the USB  
+    iv.  Decide whether dual boot your workstation, if not, the pre-installed OS will be wiped off from your workstation.  
 
 -------------------------------------------------------------------
 
@@ -57,11 +53,11 @@ Useful ROS packages:
 
 Besides tutorials, there are a lot of ROS packages which will be be used quite often provided on the ROS website.
 
-Some of the example are:
-teleop_twist_keyboard - enable remote control robot with keyboard
-tf - let user track multiple coordinate frames of robot
-rviz - 3D visualization tools, good for AGV's map visualization
-robot_localization - Localizing robot by estimating the sensors data
+Some of the example are:  
+teleop_twist_keyboard - enable remote control robot with keyboard  
+tf - let user track multiple coordinate frames of robot  
+rviz - 3D visualization tools, good for AGV's map visualization  
+robot_localization - Localizing robot by estimating the sensors data  
 
 ---------------------------------------------------------------------
 
@@ -72,13 +68,13 @@ i.  Always backup your work into github in case your workstation down.
 
 The following command lines can check the history and update the repository:
 
-git status
-git add -A
-git commit -m "filename"
-git log
-git push
+git status  
+git add -A  
+git commit -m "filename"  
+git log  
+git push  
 
 ii. Accessing file directory of micro-computer such as Raspberry Pi.
 
-First step you need to connect to the micro-computer with Ethernet or Wifi and get the IP address of it.
+First step you need to connect to the micro-computer with Ethernet or Wifi and get the IP address of it.  
 Next, open Linux file directory and select connect to server
