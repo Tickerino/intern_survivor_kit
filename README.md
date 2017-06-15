@@ -1,5 +1,5 @@
 # intern_survivor_kit
-# This is a guide for intern dummies to deal with Robotics & IoT
+# This is a guide for intern dummies to get started with Robotics & IoT
 
 Open Source Operating System: Linux Ubuntu basics
 =================================================
