@@ -1,5 +1,5 @@
 # intern_survivor_kit
-# This is a guide for intern dummies to deal with Robotics & IoT
+# This is a guide for intern dummies to get started with Robotics & IoT
 
 Open Source Operating System: Linux Ubuntu basics
 =================================================
@@ -48,6 +48,22 @@ There are also a lot of useful tutorial at the ROS website, and it's good to lea
 http://wiki.ros.org/ROS/Tutorials
 
 --------------------------------------------------------------------
+
+Work on the ROBOTS
+==================
+
+TurtleBot Kobuki:
+
+TurtleBot is a low-cost, personal robot kit with open-source software, it allow you to learn robot from the scratch. There are also ROS packages provided to support the TurtleBot, which can be found at: http://wiki.ros.org/Robots/TurtleBot
+
+Play around with the TurtleBot, like modifying the system control module of it, processing the sensors data, or other interesting stuff of it. This will definitely help you to learn robotic and ROS.
+
+
+Linorobot:
+
+Linorobot is another good platform for learning and practicing, it provides the detail instruction on how to build the robot from  zero to hundred. The information can be found at: https://linorobot.org/
+
+-------------------------------------------------------------------
 
 Useful ROS packages:
 
